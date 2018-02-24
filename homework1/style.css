@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0px; 
+}
+body{
+    text-align: center;
+}
+h1, h3{
+    
+    margin-top: 30px;
+}
+h2{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+#outer .left, #outer .right{
+    width: 50%;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: justify;
+    
+}
+
+#outer .left p, #outer .right p{
+    margin: 50px 20px; 
+    
+}
+
+button{
+    margin:  auto;
+    background-color: transparent;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid black;
+}
